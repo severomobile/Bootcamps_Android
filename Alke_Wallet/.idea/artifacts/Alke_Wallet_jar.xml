@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Alke_Wallet:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Alke_Wallet_jar</output-path>
+    <root id="archive" name="Alke_Wallet.jar">
+      <element id="module-output" name="Alke_Wallet" />
+    </root>
+  </artifact>
+</component>
