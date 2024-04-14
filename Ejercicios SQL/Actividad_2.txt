@@ -1,0 +1,21 @@
+1. Prueba cambiando la igualdad del CERO por un False. ¿funciona? Si es así 
+¿Cuál es el motivo?
+
+R: En este caso específico, False se interpreta como 0, lo que permite que la consulta funcione correctamente.
+
+2. ¿Qué resultados daría el comando siguiente? ¿Los clientes activos o los 
+inactivos :   
+• select first_name,last_name,active from customer where active;
+
+R: Seleccionará los clientes activos, es decir, aquellos cuyo campo "active" tengan un valor igual a 1.
+
+3. ¿Y el siguiente?¿Activos o inactivos?  
+• select first_name,last_name,active from customer where !active; 
+
+R: Esto devolverá los clientes inactivos de la tabla.
+
+4. Verás que no aparece ninguna fila, a pesar de que si existen registros en esa fecha. 
+¿A qué es debido? ¿Cómo podríamos visualizar alguno de los registros?
+
+R: 1. Por una comparación exacta entre una cadena de texto y una fecha. 
+   2. Usar la función DATE() para extraer la parte de la fecha de rental_date y compararla con la fecha especificada.
