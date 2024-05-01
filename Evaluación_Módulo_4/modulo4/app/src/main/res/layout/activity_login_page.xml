@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_login"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="Logea y empieza a transferir!"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        tools:layout_editor_absoluteX="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/outlinedButton"
+        app:layout_constraintStart_toStartOf="@+id/outlinedButton"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/outlinedButton"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/jua"
+        android:text="Ingresar tu email"
+        android:textAlignment="textStart"
+        android:textColor="#B3ACAC"
+        android:textSize="16sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41"
+        app:strokeWidth="3dp"
+        app:strokeColor="#EAEAEA"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="Contraseña"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/icon_eye_Button"
+        app:layout_constraintStart_toStartOf="@+id/icon_eye_Button"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/icon_eye_Button"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        app:icon="@drawable/eye_icon"
+        app:iconSize="30dp"
+        app:iconGravity="end"
+        app:iconTint="#CDCDCD"
+        android:backgroundTint="@color/white"
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54"
+        app:cornerRadius="10dp"
+        app:strokeColor="#EAEAEA"
+        app:strokeWidth="3dp"
+        android:fontFamily="@font/jua"
+        android:text="Ingresar tu contraseña"
+        android:textAlignment="textStart"
+        android:textColor="#B3ACAC"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="Olvidaste tu contraseña?"
+        android:textColor="@color/colorSplashBackground"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/icon_eye_Button"
+        app:layout_constraintTop_toBottomOf="@+id/icon_eye_Button"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/colorSplashBackground"
+        android:fontFamily="@font/jua"
+        android:text="Login"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="Crear un cuenta nueva"
+        android:textColor="@color/colorSplashBackground"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
