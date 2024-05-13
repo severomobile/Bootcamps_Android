@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="api_token">
+         eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmN2ZhOTVkMzFlMWQyODc3ZmEyZTgxYTMzMjdhZDAzMSIsInN1YiI6IjY2M2U3MzRkNWVkYjEwMTE0MjAyYWZlOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.KYdsAciGEiVXfZ_1CAtn_pMqDp4S_keMeq6chmm_c0w
+    </string>
+</resources>
